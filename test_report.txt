@@ -1,0 +1,26 @@
+test_activate_user (store.testsuites.TestAdminFeatures)
+Test activating user, function should handle invalid parameters. ... ok
+test_admin_login (store.testsuites.TestAdminFeatures)
+Loggin in with Admin credentials should create an Admin Class. ... ok
+test_deactivate_user (store.testsuites.TestAdminFeatures)
+Test deactivating user, function should handle invalid parameters. ... ok
+test_delete_user (store.testsuites.TestAdminFeatures)
+Test deleting user, function should handle invalid parameters. ... ok
+test_validate_appointment_status_table (store.testsuites.TestDatabaseCreation) ... ok
+test_validate_avalability_status_table (store.testsuites.TestDatabaseCreation) ... ok
+test_validate_user_role (store.testsuites.TestDatabaseCreation) ... ok
+test_validate_user_status (store.testsuites.TestDatabaseCreation) ... ok
+test_update_appointment (store.testsuites.TestGPFeatures) ... ok
+test_cancel_appointment (store.testsuites.TestPatientFeatures) ... ok
+test_submit_appointment (store.testsuites.TestPatientFeatures) ... ok
+test_registration_check_parameters (store.testsuites.TestRegistration) ... ok
+test_registration_sanity (store.testsuites.TestRegistration)
+Test registration, function should handle replication of email. ... ok
+test_establish_connection (store.testsuites.TestStorageFeatures) ... ok
+test_login_sanity (store.testsuites.TestUserFeatures) ... ok
+test_login_wrong_parameters (store.testsuites.TestUserFeatures) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.249s
+
+OK
